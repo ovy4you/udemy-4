@@ -15,6 +15,10 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class User implements UserInterface, \Serializable
 {
+
+    const ROLE_USER = "ROLE_USER";
+    const ROLE_ADMIN = "ROLE_ADMIN";
+
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
@@ -81,7 +85,7 @@ class User implements UserInterface, \Serializable
      */
     public function getUsername(): string
     {
-        return (string) $this->email;
+        return (string)$this->email;
     }
 
     /**
@@ -108,7 +112,7 @@ class User implements UserInterface, \Serializable
      */
     public function getPassword(): string
     {
-        return (string) $this->password;
+        return (string)$this->password;
     }
 
     public function setPassword(string $password): self

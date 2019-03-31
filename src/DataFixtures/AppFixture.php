@@ -13,22 +13,25 @@ class AppFixture extends Fixture
 
     private const USERS = [
         [
-            'username' => 'john_doe',
+            'username' => 'ovidiu ciuca',
             'email' => 'ovidiu@ovidiu.com',
-            'password' => 'john123',
+            'password' => 'ovidiu',
             'fullName' => 'John Doe',
+            'roles' => [User::ROLE_ADMIN]
         ],
         [
             'username' => 'rob_smith',
             'email' => 'ovidiu@ciuca.com',
-            'password' => 'rob12345',
+            'password' => 'ovidiu',
             'fullName' => 'Rob Smith',
+            'roles' => [User::ROLE_USER]
         ],
         [
             'username' => 'marry_gold',
             'email' => 'marry_gold@gold.com',
             'password' => 'marry12345',
             'fullName' => 'Marry Gold',
+            'roles' => [User::ROLE_USER]
         ],
     ];
 
@@ -83,6 +86,7 @@ class AppFixture extends Fixture
             $user = new User();
             $user->setFullName($userData['fullName']);
             $user->setEmail($userData['email']);
+            $user->setRoles($userData['roles']);
             $user->setPassword(
                 $this->passwordEncoder->encodePassword(
                     $user,

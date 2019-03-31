@@ -2,146 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad3844a8-a36c-4cf7-aedf-6235073d592b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/knp_paginator.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/httplug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/knp_markdown.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/nexy_slack.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/twig_extensions.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services_dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services_test.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/alien-profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/asteroid.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/astronaut-profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/lightspeed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mercury.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/meteor-shower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/space-ice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/space-nav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/article_show.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/AppSayHelloCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Command/ArticleStatsCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CommentAdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/MicroPostController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/TagFixture.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/MicroPost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/MicroPostType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helper/LoggerTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20180413174059.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20180413174154.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20180414171443.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20180418130337.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20180418130730.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190224124110.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190224124956.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190224135612.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190310103217.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190310105946.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190317201037.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190331195033.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190331200044.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20190331212834.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/MicroPostEntityRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/MicroPostRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/TagRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/ExampleVoter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/MicroPostVoter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Greeting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/MarkdownHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/SlackClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Twig/AppExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article/homepage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/add.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/post.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bundes/TwigBundle/Exception/error404.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/comment_admin/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/content_base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/micro_post/add.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/micro_post/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/micro_post/post.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/micro_post/template/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/MicroPostVoter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/MicroPostVoter.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/MicroPostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="75" selection-start-line="75" selection-end-line="77" selection-end-column="9" />
+            <state relative-caret-position="176">
+              <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
               <folding>
                 <element signature="e#34#59#0#PHP" expanded="true" />
               </folding>
@@ -172,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Security/MicroPostVoter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="637">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
               <folding>
                 <element signature="e#116#141#0#PHP" expanded="true" />
               </folding>
@@ -184,12 +48,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2049">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="e#30#78#0#PHP" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixture.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="87" column="48" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
+              <folding>
+                <element signature="e#36#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-298" />
           </provider>
         </entry>
       </file>
@@ -272,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/templates/security/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/Form/UserType.php" />
         <option value="$PROJECT_DIR$/templates/register/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/RegisterController.php" />
@@ -281,10 +163,11 @@
         <option value="$PROJECT_DIR$/templates/micro_post/post.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/micro_post/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/AppFixture.php" />
         <option value="$PROJECT_DIR$/templates/micro_post/template/index.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/src/Controller/MicroPostController.php" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/AppFixture.php" />
         <option value="$PROJECT_DIR$/src/Security/MicroPostVoter.php" />
       </list>
     </option>
@@ -403,7 +286,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2124" />
     <option name="y" value="300" />
     <option name="width" value="1890" />
@@ -444,6 +327,12 @@
               <item name="start" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="start" type="b2602c69:ProjectViewProjectNode" />
@@ -550,12 +439,12 @@
       <workItem from="1552832249886" duration="1784000" />
       <workItem from="1552834059508" duration="956000" />
       <workItem from="1552847926519" duration="13778000" />
-      <workItem from="1554059659721" duration="13824000" />
+      <workItem from="1554059659721" duration="15150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58609000" />
+    <option name="totallyTimeSpent" value="59935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -595,13 +484,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/AbstractController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -856,16 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="e#36#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Security/ExampleVoter.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -917,16 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/MicroPostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="75" selection-start-line="75" selection-end-line="77" selection-end-column="9" />
-          <folding>
-            <element signature="e#34#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/MicroPost.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -934,20 +796,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/MicroPostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+          <folding>
+            <element signature="e#34#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2049">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="e#30#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="87" column="48" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
+          <folding>
+            <element signature="e#36#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Security/MicroPostVoter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="637">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
           <folding>
             <element signature="e#116#141#0#PHP" expanded="true" />
           </folding>
