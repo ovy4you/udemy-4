@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello !{% endblock %}
+
+{% block body %}
+    <div class="example-wrapper">
+        This friendly message is coming from:
+        {% for message in app.flashes('notice') %}
+            {{ message }}
+        {% endfor %}
+        <ul>
+            {% for post in posts %}
+                {{ include('micro_post/template/index.html.twig',{'post':post}) }}
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

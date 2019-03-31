@@ -1,0 +1,16 @@
+{% extends 'content_base.html.twig' %}
+
+{% block title %}Manage Commnets{% endblock %}
+
+{% block content_class %}
+    {{ parent() }}
+    show-article-container-border-green
+{% endblock %}
+{% block content_body %}
+    {% for id, post in posts %}
+        <a href="{{ path('blog_show',{'id':id})}}">{{ id }}</a>
+        {{ post.title }}
+        {{ post.text }}
+        <br>
+    {% endfor %}
+{% endblock %}
