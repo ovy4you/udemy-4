@@ -103,7 +103,10 @@ class MicroPostController extends Controller
      */
     public function add(Request $request)
     {
+        $user = $this->getUser();
+
         $microPost = new MicroPost();
+        $microPost->setUser($user);
         $microPost->setTime(new \DateTime());
 
         $form = $this->formFactory->create(MicroPostType::class, $microPost);

@@ -50,7 +50,7 @@ class MicroPostVoter extends Voter
         if ($this->decisionManager->decide($token, [User::ROLE_ADMIN])) {
             return true;
         }
-        
+
         if (!$authenticatedUser instanceof User) {
             return false;
         }
