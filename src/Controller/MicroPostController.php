@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\MicroPost;
+use App\Entity\User;
 use App\Form\MicroPostType;
 use App\Repository\MicroPostRepository;
 use Doctrine\ORM\EntityManagerInterface;
@@ -107,7 +108,6 @@ class MicroPostController extends Controller
 
         $microPost = new MicroPost();
         $microPost->setUser($user);
-        $microPost->setTime(new \DateTime());
 
         $form = $this->formFactory->create(MicroPostType::class, $microPost);
         $form->handleRequest($request);
@@ -144,5 +144,16 @@ class MicroPostController extends Controller
         $this->entityManager->flush();
         $this->flashBag->add('notice', 'Success');
         return new RedirectResponse($this->router->generate('micro_post'));
+    }
+
+
+    /**
+     * @Route("/user/{email}", name="micro_post_user")
+     */
+    public function userPosts(User $userWithPost)
+    {
+        return $this->render('micro_post/user-posts.html.twig', [
+            'user' => $userWithPost,
+        ]);
     }
 }

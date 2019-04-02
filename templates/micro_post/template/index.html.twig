@@ -1,4 +1,6 @@
-<li>{{ post.user.email }}{{ post.text }} {{ post.time|date }} <a href="{{ path('micro_post_post',{'id':post.id}) }}">Show</a>
+<li>
+    <a href="{{ path('micro_post_user',{'email':post.user.email}) }}">{{ post.user.email }} </a> {{ post.text }} {{ post.time|date }}
+    <a href="{{ path('micro_post_post',{'id':post.id}) }}">Show</a>
     {% if is_granted('edit',post) %}
         <a href="{{ path('micro_post_edit',{'id':post.id}) }}">Edit</a>
     {% endif %}
